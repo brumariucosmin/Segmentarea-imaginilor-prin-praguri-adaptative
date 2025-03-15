@@ -6,7 +6,7 @@ Algoritm studiat: Implementarea și optimizarea metodei Otsu pentru binarizarea 
 Scopul proiectului:<br/>
 
 Implementarea metodei de binarizare Otsu pe Raspberry Pi Pico 2.<br/>
-Optimizarea execuției folosind instrucțiuni DSP și procesare paralelizată.<br/>
+Optimizarea execuției folosind instrucțiuni DSP.<br/>
 Compararea performanței metodei pe imagini cu și fără zgomot.<br/>
 Evaluarea timpului de execuție și calității segmentării prin metrici precum PSNR și SSIM.<br/>
 In functie de timpul ramas, este posibil sa se mai adauge si alte functionalitati, ele vor fi notate pe github.<br/>
