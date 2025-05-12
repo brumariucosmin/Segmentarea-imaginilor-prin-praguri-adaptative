@@ -23,7 +23,7 @@ Aceasta este o metodă neparametrică și non-iterativă, ideală pentru imagini
 
 ---
 
-## 🔄 Update 1 – MicroPython (versiunea de bază)
+## 🔄 Update 1 – MicroPython (versiune_de_baza_micropython.py)
 - **Platformă:** Raspberry Pi Pico 2 W (RP2350)
 - **Limbaj:** MicroPython
 - **Funcționalități:**
@@ -43,7 +43,7 @@ Aceasta este o metodă neparametrică și non-iterativă, ideală pentru imagini
 
 ## 🔄 Update 2 – Versiune Arduino C/C++ (optimizare completă)
 
-### ✅ Versiunea Optimizată (`versiunea_optimizata.ino`)
+### ✅ Versiunea Optimizată (`versiunea_optimizata.c`)
 - **Limbaj:** C++ cu Arduino IDE
 - **Procesor:** ARM Cortex-M33 cu FPU și instrucțiuni DSP (RP2350A)
 - **Imagine:** generată local (gradient artificial)
@@ -70,7 +70,7 @@ SSIM: 0.7521
 
 ---
 
-### ⚠️ Versiunea Neoptimizată Intenționat (`versiunea_neoptimizata.ino`)
+### ⚠️ Versiunea Neoptimizată Intenționat (`versiunea_neoptimizata.c`)
 - **Histogramă calculată** prin căutare lineară cu `for` + `if`, extrem de ineficientă
 - **Imagine:** gradient similar
 - **Aceleași calcule PSNR/SSIM** și prag Otsu
