@@ -70,7 +70,7 @@ SSIM: 0.7521
 
 ---
 
-### ⚠️ Versiunea Neoptimizată Intenționat (`versiunea_neoptimizata.c`)
+### ⚠️ Versiunea Realizata Ineficient (`versiunea_neoptimizata.c`)
 - **Histogramă calculată** prin căutare lineară cu `for` + `if`, extrem de ineficientă
 - **Imagine:** gradient similar
 - **Aceleași calcule PSNR/SSIM** și prag Otsu
@@ -84,7 +84,7 @@ Execution Time (us): 582
 Execution Time (us): 25012
 ```
 
-> 🔻 Versiunea neoptimizată a fost încetinită artificial pentru evidențierea diferenței. Rezultatul este același, dar timpul este de ~43× mai mare.
+> 🔻 Versiunea neoptimizată a fost realizata ineficient pentru evidențierea diferenței. Rezultatul este același, dar timpul este de ~43× mai mare.
 
 ---
 
@@ -116,4 +116,4 @@ Pe microcontrolerul **RP2350A**, compilatorul din platforma Arduino (Mbed GCC) a
 | MicroPython             | Simplă                 | Parțial     | ms                 | Implementare de bază        |
 | Versiune optimizată     | Loop unrolling (DSP)   | ✔           | ~586               | Rapid, eficient             |
 | Versiune semi-optimizată| directă                | ✔           | ~690               | Referință de comparație     |
-| Versiune neoptimizată   | lineară + if           | ✔           | ~25012             | Încetinită intenționat      |
+| Versiune neoptimizată   | lineară + if           | ✔           | ~25012             | Realizat Ineficient         |
