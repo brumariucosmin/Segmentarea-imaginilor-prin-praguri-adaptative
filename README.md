@@ -46,9 +46,8 @@ Otsu este o metodă automată de binarizare care determină un **prag optim** de
 
 > ✅ Rezultatele binare sunt identice. Diferențele apar în viteză de execuție și eficiența calculului.
 
-
 ---
-
+![Screenshot_14](https://github.com/user-attachments/assets/b3908e5f-f59e-4f9e-a25b-1cd1409523e8)
 ## 📚 Bibliografie
 
 - [1] N. Otsu, “A Threshold Selection Method from Gray-Level Histograms,” IEEE Trans. Systems, Man, Cybernetics, 1979.
